@@ -11,5 +11,10 @@
     display: inline;
 
     color: white;
-    background-color: blue;
+    background-color: tomato;
+}
+
+.Button img{
+    width: 32px;
+    height: 32px;;
 }

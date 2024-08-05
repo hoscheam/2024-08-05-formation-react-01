@@ -4,7 +4,7 @@ import style from './Button.module.css';
 const Button = (props) => {
   console.log(props);
     return (
-    <div className={style.Button} data-testid="Button">{props.text}</div>
+    <div style={{...props.style, backgroundColor:props.bgColor, color: props.color}} className={style.Button} data-testid="Button">{props.children}</div>
   );
 };
 
